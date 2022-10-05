@@ -4,7 +4,7 @@ This a simple example of how to use LaunchDarkly feature flag based on defined r
 pre-Requistie
 * Edit demo.py at line 12 to add your API keys from your launchDarkly account. API key can be accessed on your launcDarkly dashboard from 'Account Settings > Projects> Click project Name> Copy the API key from corresponding environment .
 
-![Screenshot](apik-key.png)
+![Screenshot](api-key.png)
 
 
 * Following screenshot is an  example of using feature flag on based on target rulessers. 
