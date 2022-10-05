@@ -13,7 +13,7 @@ cd into ld-demo
 * Install launchdarkly SDK for  Python 
 
 ```
-pip install requirements.txt
+pip3 install requirements.txt
 ````
 * Edit demo.py at line 12 to add your API keys from your launchDarkly account. API key can be accessed on your launcDarkly dashboard from 'Account Settings > Projects> Click project Name> Copy the API key from corresponding environment .
 
@@ -25,4 +25,19 @@ pip install requirements.txt
 
 
 * The above Feature flags implements 2 targetting rules and one default rules based on the email address.
-* When you run this as it is following the rule targets as shown in picture below, the sample out put will show case background "Blue" or "Red" depending on the email address match
+```
+python3 demo.py
+```
+* When you run this as it is following the rule targets as shown in picture below, the sample out put will show case background "Blue" or "Red" depending on the email address match . Sample output like given below.
+
+*** SDK successfully initialized!
+
+{'name': 'Manjeet', 'email': 'manjeet@gmail.com'}
+*** Feature flag 'background' is RED for this user 
+
+{'name': 'Akshat', 'email': 'akshat@yahoo.com'}
+*** Feature flag 'background' is BLUE for this user 
+
+{'name': 'Nikhil', 'email': 'nikhil@aol.com'}
+*** Feature flag 'background' is BLUE for this user 
+
