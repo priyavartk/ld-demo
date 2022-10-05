@@ -15,7 +15,7 @@ cd into ld-demo
 ```
 pip3 install requirements.txt
 ````
-* Edit demo.py at line 12 to add your API keys from your launchDarkly account. API key can be accessed on your launcDarkly dashboard from 'Account Settings > Projects> Click project Name> Copy the API key from corresponding environment .
+* Edit demo.py at line 12 to add your API keys from your launchDarkly account. API key can be accessed on your launcDarkly dashboard from 'Account Settings > Projects> Click project Name> Copy the valye of SDK key  key from corresponding environment .
 
 ![Screenshot](api-key.png)
 
