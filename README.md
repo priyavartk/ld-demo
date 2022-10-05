@@ -23,8 +23,14 @@ pip3 install requirements.txt
 * Following screenshot is an  example of using feature flag  based on target rules. This sample configuration which enables you to configure condition like "contains", "ends with" or operators. Upon recieving user attributes sent by SDK , it returns either a matching variations or you can define default rule below.
 ![Screenshot](feature-flag.png)
 
-
 * The above Feature flags implements 2 targetting rules and one default rules based on the email address.
+
+* Refer to line No. 26 which is a sample list of customer/users with attributes like name and email which we are sending to SDK to check flag variations.
+  customer_list = [{'name' : 'Manjeet', 'email' : 'manjeet@gmail.com'}, 
+             {'name' : 'Akshat',  'email' : 'akshat@yahoo.com'},
+             {'name' : 'Nikhil', 'email' : 'nikhil@aol.com'}]
+             
+* Run following command 
 ```
 python3 demo.py
 ```
