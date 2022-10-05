@@ -2,7 +2,7 @@
 This a simple example of how to use LaunchDarkly feature flag based on defined rules.  Rules are configuration which enables you to configure condition like "contains", "ends with" or operators. Upon recieving user attributes sent by SDK , it returns either a matching variations or you can define default rule
 
 pre-Requistie
-* Edit demo.py at line 12 to add your API keys from your launchDarkly account. API key be accessed on your launcDarkly dashboard from 'Account Settings > Projects> Click project Name> Copy the API key from corresponding environment .
+* Edit demo.py at line 12 to add your API keys from your launchDarkly account. API key can be accessed on your launcDarkly dashboard from 'Account Settings > Projects> Click project Name> Copy the API key from corresponding environment .
 
 ![Screenshot](apik-key.png)
 
