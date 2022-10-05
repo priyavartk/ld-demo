@@ -7,7 +7,6 @@ We will use feature flag based on defined rules. In this example, I am using fea
 * Clone repo 
 ```
 git clone <repourl>
-```
 
 cd into ld-demo
 ```
