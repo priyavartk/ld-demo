@@ -6,8 +6,13 @@ We will Rules configuration which enables you to configure condition like "conta
 
 **Pre-Requistie**
 
-* Clone repo and cd into ld-demo
-* run pip install requirements.txt
+* Clone repo 
+```
+cd into ld-demo
+```
+```
+run pip install requirements.txt
+````
 * Edit demo.py at line 12 to add your API keys from your launchDarkly account. API key can be accessed on your launcDarkly dashboard from 'Account Settings > Projects> Click project Name> Copy the API key from corresponding environment .
 
 ![Screenshot](api-key.png)
