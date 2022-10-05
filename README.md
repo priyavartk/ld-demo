@@ -2,8 +2,6 @@
 
 We will use feature flag based on defined rules. In this example, I am using feature flag "background"  with two possible values , Blue and Red.
 
-We will Rules configuration which enables you to configure condition like "contains", "ends with" or operators. Upon recieving user attributes sent by SDK , it returns either a matching variations or you can define default rule
-
 **Pre-Requistie**
 
 * Clone repo 
@@ -18,7 +16,7 @@ run pip install requirements.txt
 ![Screenshot](api-key.png)
 
 
-* Following screenshot is an  example of using feature flag  based on target rules.  
+* Following screenshot is an  example of using feature flag  based on target rules. This sample configuration which enables you to configure condition like "contains", "ends with" or operators. Upon recieving user attributes sent by SDK , it returns either a matching variations or you can define default rule below.
 ![Screenshot](feature-flag.png)
 
 
