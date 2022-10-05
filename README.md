@@ -8,9 +8,11 @@ We will use feature flag based on defined rules. In this example, I am using fea
 ```
 git clone <repourl>
 ```
+
 cd into ld-demo
 ```
 * Install launchdarkly SDK for  Python 
+
 ```
 run pip install requirements.txt
 ````
